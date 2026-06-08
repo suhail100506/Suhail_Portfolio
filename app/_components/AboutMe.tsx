@@ -83,10 +83,10 @@ const AboutMe = () => {
                     <div className="md:col-span-7">
                         <div className="text-lg text-muted-foreground max-w-[450px]">
                             <p className="slide-up-and-fade">
-                                I am a passionate **Full Stack Developer** with hands-on experience in React.js, Node.js, Express.js, MongoDB, Tailwind CSS, and REST APIs. I build modern web applications, responsive user interfaces, and scalable backend systems.
+                                I&apos;m a <strong>Full Stack Developer</strong> and <strong>3rd‑year CSE student</strong>, building seamless, responsive, user‑focused web experiences. I specialize in intuitive UI development with <strong>React &amp; Next.js</strong> while expanding backend expertise across <strong>Node.js</strong>, <strong>Express</strong>, and <strong>MongoDB</strong>.
                             </p>
                             <p className="mt-3 slide-up-and-fade">
-                                I focus on **clean architecture**, performance optimization, and maintainable codebase structures. Having worked on projects including AI-powered language translation platforms, job portal platforms, and mobile applications, I enjoy translating product requirements into reliable full-stack solutions.
+                                I focus on <strong>scalability</strong>, <strong>performance optimization (Core Web Vitals)</strong>, <strong>accessibility</strong>, and <strong>maintainable code architecture</strong>. Having worked on projects including AI-powered language translation platforms, job portal platforms, and mobile applications, I translate requirements into reliable, testable full‑stack solutions with <strong>JWT authentication</strong>, <strong>RESTful APIs</strong>, efficient state management, and data modeling.
                             </p>
                         </div>
                     </div>
