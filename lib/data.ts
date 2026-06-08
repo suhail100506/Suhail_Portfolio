@@ -160,11 +160,11 @@ export const PROJECTS: IProject[] = [
             'IndicTrans2',
             'REST API',
         ],
-        thumbnail: '/projects/thumbnail/translator.png',
-        longThumbnail: '/projects/long/translator.png',
+        thumbnail: '/projects/thumbnail/translator_new.png',
+        longThumbnail: '/projects/long/translator_new.png',
         images: [
-            '/projects/images/translator1.png',
-            '/projects/images/translator2.png',
+            '/projects/images/translator1_new.png',
+            '/projects/images/translator2_new.png',
         ],
     },
     {
@@ -200,11 +200,13 @@ export const PROJECTS: IProject[] = [
             'MongoDB',
             'JWT',
         ],
-        thumbnail: '/projects/thumbnail/job-portal.png',
-        longThumbnail: '/projects/long/job-portal.png',
+        thumbnail: '/projects/thumbnail/job-portal_new.png',
+        longThumbnail: '/projects/long/job-portal_new.png',
         images: [
-            '/projects/images/job-portal1.png',
-            '/projects/images/job-portal2.png',
+            '/projects/images/job-portal4_new.png',
+            '/projects/images/job-portal1_new.png',
+            '/projects/images/job-portal2_new.png',
+            '/projects/images/job-portal3_new.png',
         ],
     },
     {
