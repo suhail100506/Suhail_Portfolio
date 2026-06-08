@@ -66,6 +66,14 @@ export const MY_STACK = {
             name: 'REST APIs',
             icon: '/logo/js.png',
         },
+        {
+            name: 'Python',
+            icon: '/logo/python.svg',
+        },
+        {
+            name: 'JWT',
+            icon: '/logo/jwt.svg',
+        },
     ],
     database: [
         {
@@ -75,6 +83,10 @@ export const MY_STACK = {
         {
             name: 'MySQL',
             icon: '/logo/mysql.svg',
+        },
+        {
+            name: 'Firebase',
+            icon: '/logo/firebase.svg',
         },
     ],
     tools: [
@@ -99,10 +111,6 @@ export const MY_STACK = {
             icon: '/logo/cloudinary.svg',
         },
         {
-            name: 'Firebase',
-            icon: '/logo/firebase.svg',
-        },
-        {
             name: 'npm',
             icon: '/logo/npm.svg',
         },
@@ -113,14 +121,6 @@ export const MY_STACK = {
         {
             name: 'Render',
             icon: '/logo/render.svg',
-        },
-        {
-            name: 'Python',
-            icon: '/logo/python.svg',
-        },
-        {
-            name: 'JWT',
-            icon: '/logo/jwt.svg',
         },
     ],
 };
