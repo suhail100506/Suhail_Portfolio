@@ -8,7 +8,7 @@ test.describe('Navigation', () => {
         await page.locator('section#selected-projects').scrollIntoViewIfNeeded();
 
         // Find and click on a project link
-        const projectLink = page.getByText('Fitrack Application').first();
+        const projectLink = page.getByText('AI Language Translator').first();
         await expect(projectLink).toBeVisible();
         
         // Get the parent link element
@@ -24,19 +24,19 @@ test.describe('Navigation', () => {
         
         // Navigate to projects section and click first project
         await page.locator('section#selected-projects').scrollIntoViewIfNeeded();
-        const projectLink = page.locator('a').filter({ hasText: 'Fitrack Application' }).first();
+        const projectLink = page.locator('a').filter({ hasText: 'AI Language Translator' }).first();
         await projectLink.click();
 
         // Wait for navigation
         await page.waitForURL(/\/projects\/.+/);
 
         // Project details should be visible
-        await expect(page.getByText('Fitrack Application')).toBeVisible();
+        await expect(page.getByText('AI Language Translator')).toBeVisible();
     });
 
     test('should navigate back to homepage from project page', async ({ page }) => {
         // Start from a project page
-        await page.goto('/projects/fitrack-application');
+        await page.goto('/projects/ai-language-translator');
         
         // Click back/home navigation
         const homeLink = page.locator('nav a[href="/"]').first();
@@ -119,7 +119,7 @@ test.describe('Project Interactions', () => {
         await page.locator('section#selected-projects').scrollIntoViewIfNeeded();
 
         // Hover over a project
-        const project = page.getByText('Fitrack Application').first();
+        const project = page.getByText('AI Language Translator').first();
         await project.hover();
 
         // Project should remain visible after hover

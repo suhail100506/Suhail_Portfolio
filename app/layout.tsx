@@ -79,7 +79,6 @@ const structuredData = {
         'MongoDB',
         'Express',
         'Tailwind CSS',
-        'Firebase',
         'JavaScript',
         'Full Stack Development',
         'MERN Stack'

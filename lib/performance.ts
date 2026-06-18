@@ -19,7 +19,7 @@ export const CRITICAL_RESOURCES = {
     ],
     images: [
         // Above-the-fold images that need immediate loading
-        '/projects/thumbnail/fitrack.png',
+        '/projects/thumbnail/translator_new.png',
     ],
 } as const;
 

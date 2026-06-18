@@ -2,15 +2,15 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Project Detail Page', () => {
     test.beforeEach(async ({ page }) => {
-        await page.goto('/projects/fitrack-application');
+        await page.goto('/projects/ai-language-translator');
     });
 
     test('should load project detail page', async ({ page }) => {
-        await expect(page).toHaveURL(/\/projects\/fitrack-application/);
+        await expect(page).toHaveURL(/\/projects\/ai-language-translator/);
     });
 
     test('should display project title', async ({ page }) => {
-        const title = page.getByText('Fitrack Application');
+        const title = page.getByText('AI Language Translator');
         await expect(title).toBeVisible();
     });
 
@@ -40,11 +40,11 @@ test.describe('Project Detail Page', () => {
 
 test.describe('Project Page SEO', () => {
     test('should have proper meta tags', async ({ page }) => {
-        await page.goto('/projects/fitrack-application');
+        await page.goto('/projects/ai-language-translator');
 
         // Check for title
         const title = await page.title();
-        expect(title).toContain('Fitrack');
+        expect(title).toContain('Translator');
 
         // Check for meta description
         const metaDescription = await page
@@ -54,7 +54,7 @@ test.describe('Project Page SEO', () => {
     });
 
     test('should have Open Graph tags', async ({ page }) => {
-        await page.goto('/projects/fitrack-application');
+        await page.goto('/projects/ai-language-translator');
 
         // Check for OG tags
         const ogTitle = page.locator('meta[property="og:title"]');
@@ -68,7 +68,7 @@ test.describe('Project Page SEO', () => {
 
 test.describe('Project Page Accessibility', () => {
     test('should have proper heading structure', async ({ page }) => {
-        await page.goto('/projects/fitrack-application');
+        await page.goto('/projects/ai-language-translator');
 
         // Should have at least one h1
         const h1 = page.locator('h1');
@@ -77,7 +77,7 @@ test.describe('Project Page Accessibility', () => {
     });
 
     test('should have keyboard navigation support', async ({ page }) => {
-        await page.goto('/projects/fitrack-application');
+        await page.goto('/projects/ai-language-translator');
 
         // Tab through focusable elements
         await page.keyboard.press('Tab');
@@ -91,7 +91,7 @@ test.describe('Project Page Accessibility', () => {
 
 test.describe('Project Images', () => {
     test('should load project images if present', async ({ page }) => {
-        await page.goto('/projects/fitrack-application');
+        await page.goto('/projects/ai-language-translator');
 
         // Wait for images to load
         await page.waitForLoadState('networkidle');
@@ -114,7 +114,7 @@ test.describe('Project Images', () => {
     });
 
     test('should have alt text on images', async ({ page }) => {
-        await page.goto('/projects/fitrack-application');
+        await page.goto('/projects/ai-language-translator');
 
         const images = page.locator('img');
         const imageCount = await images.count();

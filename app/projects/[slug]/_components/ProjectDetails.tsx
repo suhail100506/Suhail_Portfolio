@@ -187,7 +187,8 @@ const ProjectDetails = ({ project }: Props) => {
                         <div
                             key={image}
                             className={`group relative w-full overflow-hidden rounded-sm bg-background-light ${
-                                project.slug === 'credent-mobile-app'
+                                project.slug === 'credent-mobile-app' ||
+                                project.slug === 'sattrack-satellite-tracker'
                                     ? 'aspect-[9/20] max-w-[380px] mx-auto'
                                     : 'aspect-[750/400]'
                             }`}
