@@ -1,0 +1,8 @@
+# robots.txt for Mohammed Suhail Portfolio
+# Allow all crawlers to index the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://mohammedsuhail.vercel.app/sitemap.xml
